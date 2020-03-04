@@ -1,50 +1,50 @@
 {
-  "name": "gulp-svgstore-cs",
-  "version": "7.0.1",
-  "description": "Combine svg files into one with <symbol> elements or convert svg font",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "scripts": {
-    "test": "gulp build && mocha test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/GroM/gulp-svgstore"
-  },
-  "author": {
-    "name": "Jerzy Brzozowski",
-    "email": "jerzy-brzozowski@wp.pl"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/GroM/gulp-svgstore/issues"
-  },
-  "homepage": "https://github.com/GroM/gulp-svgstore",
-  "dependencies": {
-    "cheerio": "0.*",
-    "fancy-log": "^1.3.2",
-    "plugin-error": "^0.1.2",
-    "vinyl": "^2.1.0"
-  },
-  "devDependencies": {
-    "finalhandler": "^0.5.0",
-    "gulp": "^3.6.2",
-    "gulp-inject": "^4.1.0",
-    "mocha": "^3.0.2",
-    "serve-static": "^1.9.3",
-    "sinon": "^1.16.1",
-    "wd": "^0.4.0"
-  },
-  "engines": {
-    "node": ">=4.0"
-  },
-  "engineStrict": true,
-  "keywords": [
-    "gulpplugin",
-    "svg",
-    "icon",
-    "sprite"
-  ]
+	"name": "gulp-svgstore-cs",
+	"version": "8.0.0",
+	"description": "Combine svg files into one with <symbol> elements or convert svg font",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"scripts": {
+		"test": "gulp build && mocha test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/GroM/gulp-svgstore"
+	},
+	"author": {
+		"name": "Jerzy Brzozowski",
+		"email": "jerzy-brzozowski@wp.pl"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/GroM/gulp-svgstore/issues"
+	},
+	"homepage": "https://github.com/GroM/gulp-svgstore",
+	"dependencies": {
+		"cheerio": "1.0.0-rc.3",
+		"fancy-log": "^1.3.2",
+		"plugin-error": "^1.0.1",
+		"vinyl": "^2.1.0"
+	},
+	"devDependencies": {
+		"finalhandler": "^1.1.2",
+		"gulp": "^4.0.2",
+		"gulp-inject": "^5.0.5",
+		"mocha": "^7.1.0",
+		"serve-static": "^1.9.3",
+		"sinon": "^9.0.0",
+		"wd": "^1.12.1"
+	},
+	"engines": {
+		"node": ">=4.0"
+	},
+	"engineStrict": true,
+	"keywords": [
+		"gulpplugin",
+		"svg",
+		"icon",
+		"sprite"
+	]
 }

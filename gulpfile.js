@@ -37,4 +37,4 @@ gulp.task('convert', function() {
 		.pipe(gulp.dest('test/dest/convert'));
 })
 
-gulp.task('build', ['external', 'inline', 'convert'])
+gulp.task('build', gulp.parallel('external', 'inline', 'convert'));
